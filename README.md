@@ -14,7 +14,7 @@ AdminFinder is a simple tool designed to locate admin login pages on websites. B
 1. Clone the repository:
 
    ```bash
-   [git clone https://github.com/Amirprx3/AdminFinder.git](https://github.com/gomezbarbra359/AdminFinder.git)
+   git clone https://github.com/gomezbarbra359/AdminFinder.git
    cd AdminFinder
    ```
 
