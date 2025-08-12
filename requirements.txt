@@ -2,3 +2,4 @@ httpx[socks]
 fake-useragent
 beautifulsoup4
 urllib3
+cryptography
