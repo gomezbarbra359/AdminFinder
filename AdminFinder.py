@@ -41,9 +41,7 @@ neonEffect(
 {w}   / __ |/ _  //  ' \ / // _ \ / _/ / // _ \/ _  // -_)/ __/
 {r}  /_/ |_|\_,_//_/_/_//_//_//_//_/  /_//_//_/\_,_/ \__//_/   
 {p} -----------------------------------------------------------
-  {g}Version | 2.0 - Advanced Admin Panel Finder
-  {w}MadeBy: @Amirprx3
-  {r}GitHub: https://github.com/Amirprx3
+  {g} Admin Panel Finder
 {p} -----------------------------------------------------------
 {w}
 '''
@@ -52,7 +50,6 @@ neonEffect(
 def validate_url(url):
     if len(url) < 5:
         raise ValueError("URL is too short!")
-    # ساده‌ترین چک برای فرمت URL
     if '.' not in url:
         raise ValueError("Invalid URL format! Please include a domain (e.g., example.com)")
 
@@ -308,4 +305,4 @@ except KeyboardInterrupt:
     sys.exit(0)
 
 print(f"{g}<-----------------------------FINISHED----------------------------->{w}")
-# Amirprx3
+
