@@ -71,12 +71,19 @@ The output displays the status of each attempted path with color‑coded status 
 ---
 
 ## Example Output
+```
+[*] URL provided: http://example.com
+[*] Successfully reached the URL: http://example.com
+[*] Using default wordlist from: wordlist.txt
 
-*(Example output would normally appear here)*
+<-----------------------------START----------------------------->
 
-## Author
+[404] Page not found (disguised as 200) - URL: http://example.com/admin1.php
+[200] Found a potential admin page - URL: http://example.com/admin/login.php
+[500] Server error - URL: http://example.com/server.php
+[!] Blocked by WAF - URL: http://example.com/adm/
+```
 
-[Amirprx3](https://github.com/Amirprx3)
 
 ## License
 
